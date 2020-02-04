@@ -571,7 +571,7 @@ pub fn update_lava(cell: Cell, mut api: SandApi) {
             0,
             0,
             Cell {
-                species: Species::Stone,
+                species: Species::Acid,
                 ra: (150 + (dx + dy) * 10) as u8,
                 rb: 0,
                 clock: 0,
